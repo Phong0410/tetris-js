@@ -188,7 +188,7 @@ class Board {
 		this.context = context
 		this.grid = this.generateWhiteBoard()
 		this.score = 0
-		this.clearAudio = new Audio("../sounds_clear.wav")
+		this.clearAudio = new Audio("./sounds_clear.wav")
 	}
 
 	generateWhiteBoard() {
